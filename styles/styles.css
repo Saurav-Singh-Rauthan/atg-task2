@@ -20,7 +20,7 @@ body {
 
 .item {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .owl-dots {
@@ -33,7 +33,7 @@ body {
 
 .img-cont,
 .text-cont {
-  height: 50vh;
+  height: 50%;
   position: relative;
 }
 
