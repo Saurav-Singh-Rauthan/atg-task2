@@ -5,14 +5,12 @@
 html {
   height: 100%;
   margin: 0;
-  
 }
 
 body {
   height: 100%;
   width: 100%;
   margin: 0;
-  
 }
 
 .mobView {
@@ -26,7 +24,7 @@ body {
 }
 
 .owl-dots {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
@@ -86,8 +84,93 @@ body {
   right: 0;
 }
 
+.pizza1 {
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  width: 60px !important;
+}
+
+.pizza2 {
+  position: absolute;
+  bottom: 0px;
+  right: -60px;
+  width: 150px !important;
+}
+
+.pizza3 {
+  position: absolute;
+  top: 30%;
+  right: -60px;
+  width: 120px !important;
+}
+
+.pizza4 {
+  position: absolute;
+  width: 200px !important;
+  top: -30px;
+}
+
+.pizza5 {
+  position: absolute;
+  width: 150px !important;
+  left: 150px;
+  top: -25px;
+}
+
+.pizza6 {
+  position: absolute;
+  bottom: -10px;
+  left: 150px;
+  width: 150px !important;
+}
+
+.pizza7 {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  width: 140px !important;
+}
+
+.karvan1 {
+  position: absolute;
+  left: 10px;
+  bottom: -70px;
+  width: 140px !important;
+}
+
+.karvan2 {
+  position: absolute;
+  left: 40%;
+  bottom: -130px;
+  width: 140px !important;
+}
+
+.karvan3 {
+  position: absolute;
+  top: -80px;
+  left: 10px;
+  width: 140px !important;
+}
+
+.karvan4 {
+  right: -60px;
+  bottom: -40px;
+  position: absolute;
+  width: 140px !important;
+}
+
+.karvan5 {
+  position: absolute;
+  right: 70px;
+  top: -10px;
+  width: 140px !important;
+}
+
 .slide1Img {
   background-color: rgba(4, 54, 119, 0.726);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide1Txt {
@@ -100,33 +183,39 @@ body {
 }
 
 .slide2Img {
-  background-color: rgba(4, 54, 119, 0.726);
+  background-color: #121a26;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide2Txt {
-  background-color: rgb(6, 53, 116);
+  background-color: #213046;
 }
 
 .slide2But {
-  background-color: rgb(13, 43, 82);
+  background-color: #121a26;
   color: white;
 }
 
 .slide3Img {
-  background-color: rgba(4, 54, 119, 0.726);
+  background-color: rgb(121, 3, 121);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide3Txt {
-  background-color: rgb(6, 53, 116);
+  background-color: rgb(61, 6, 68);
 }
 
 .slide3But {
-  background-color: rgb(13, 43, 82);
+  background-color: rgb(121, 3, 121);
   color: white;
 }
 
 .slide4Img {
   background-color: rgba(4, 54, 119, 0.726);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide4Txt {
@@ -140,6 +229,8 @@ body {
 
 .slide5Img {
   background-color: rgba(4, 54, 119, 0.726);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide5Txt {
@@ -153,6 +244,8 @@ body {
 
 .slide6Img {
   background-color: rgba(4, 54, 119, 0.726);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide6Txt {
@@ -166,6 +259,8 @@ body {
 
 .slide7Img {
   background-color: rgba(4, 54, 119, 0.726);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .slide7Txt {
