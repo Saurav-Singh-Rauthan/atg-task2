@@ -24,7 +24,7 @@ body {
 }
 
 .owl-dots {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
@@ -167,6 +167,87 @@ body {
   width: 140px !important;
 }
 
+.int1 {
+  height: 50vh;
+  background: url("../assests/interior.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.int2 {
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+}
+
+.veme1 {
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+  width: 160px !important;
+}
+
+.veme2 {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  width: 160px !important;
+}
+
+.nextgtv1 {
+  position: absolute;
+  left: -20px;
+  bottom: -50px;
+  width: 220px !important;
+}
+
+.nextgtv2 {
+  position: absolute;
+  right: -30px;
+  bottom: -50px;
+  width: 220px !important;
+}
+
+.nextgtv3 {
+  position: fixed;
+  width: 200px !important;
+  top: 46%;
+  left: 10px;
+  opacity: 1;
+  z-index: 10;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 5px solid rgb(238, 139, 185);
+}
+
+.melltoo1 {
+  position: absolute;
+  left: 5px;
+  bottom: -30px;
+  z-index: 1;
+  width: 260px !important;
+}
+
+.melltoo2 {
+  position: absolute;
+  right: 15px;
+  bottom: -30px;
+  width: 190px !important;
+}
+
+.melltoo3 {
+  position: fixed;
+  top: 46%;
+  left: 10px;
+  z-index: 10;
+  width: 190px !important;
+  border-radius: 0.5rem;
+  border: 4px solid green;
+}
+
 .slide1Img {
   background-color: rgba(4, 54, 119, 0.726);
   overflow-x: hidden;
@@ -213,61 +294,61 @@ body {
 }
 
 .slide4Img {
-  background-color: rgba(4, 54, 119, 0.726);
+  background-color: rgba(170, 132, 6, 0.726);
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .slide4Txt {
-  background-color: rgb(6, 53, 116);
+  background-color: rgba(204, 158, 9, 0.726);
 }
 
 .slide4But {
-  background-color: rgb(13, 43, 82);
+  background-color: rgba(170, 132, 6, 0.726);
   color: white;
 }
 
 .slide5Img {
-  background-color: rgba(4, 54, 119, 0.726);
+  background-color: rgb(98, 4, 160);
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .slide5Txt {
-  background-color: rgb(6, 53, 116);
+  background-color: rgb(45, 17, 63);
 }
 
 .slide5But {
-  background-color: rgb(13, 43, 82);
+  background-color: rgb(98, 4, 160);
   color: white;
 }
 
 .slide6Img {
-  background-color: rgba(4, 54, 119, 0.726);
+  background-color: rgb(223, 67, 140);
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .slide6Txt {
-  background-color: rgb(6, 53, 116);
+  background-color: rgb(124, 39, 79);
 }
 
 .slide6But {
-  background-color: rgb(13, 43, 82);
+  background-color: rgb(223, 67, 140);
   color: white;
 }
 
 .slide7Img {
-  background-color: rgba(4, 54, 119, 0.726);
+  background-color: rgb(83, 235, 151);
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .slide7Txt {
-  background-color: rgb(6, 53, 116);
+  background-color: rgb(33, 85, 56);
 }
 
 .slide7But {
-  background-color: rgb(13, 43, 82);
+  background-color: rgb(83, 235, 151);
   color: white;
 }
