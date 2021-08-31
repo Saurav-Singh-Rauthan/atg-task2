@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.mobView {
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  width: 100%;
+  height: 100vh;
+}
+
+.owl-dots {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  margin: 0 auto;
+}
+
+.img-cont,
+.text-cont {
+  height: 50vh;
+  position: relative;
+}
+
+.all-text {
+  position: absolute;
+  bottom: 70px;
+  padding: 2rem;
+  color: white;
+}
+
+.all-text h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+  font-weight: 300;
+}
+
+.all-text h6,
+.all-text h5 {
+  margin: 2rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.button {
+  border-radius: 16px;
+  background-color: wheat;
+  width: 40%;
+  padding: 1rem;
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.fitnessImg1 {
+  width: 200px !important;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+}
+
+.fitnessImg2 {
+  width: 170px !important;
+  position: absolute;
+  top: -100px;
+  right: 0;
+}
+
+.slide1Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide1Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide1But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
+
+.slide2Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide2Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide2But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
+
+.slide3Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide3Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide3But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
+
+.slide4Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide4Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide4But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
+
+.slide5Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide5Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide5But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
+
+.slide6Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide6Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide6But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
+
+.slide7Img {
+  background-color: rgba(4, 54, 119, 0.726);
+}
+
+.slide7Txt {
+  background-color: rgb(6, 53, 116);
+}
+
+.slide7But {
+  background-color: rgb(13, 43, 82);
+  color: white;
+}
