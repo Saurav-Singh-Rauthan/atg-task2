@@ -5,12 +5,14 @@
 html {
   height: 100%;
   margin: 0;
+  
 }
 
 body {
   height: 100%;
   width: 100%;
   margin: 0;
+  
 }
 
 .mobView {
@@ -20,20 +22,20 @@ body {
 
 .item {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .owl-dots {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 5px;
+  bottom: 0;
   margin: 0 auto;
 }
 
 .img-cont,
 .text-cont {
-  height: 50%;
+  height: 50vh;
   position: relative;
 }
 
