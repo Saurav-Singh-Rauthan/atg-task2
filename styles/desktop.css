@@ -1,0 +1,84 @@
+.desktopCont{
+    height: 700vh;
+    width: 100%;
+    display: none;
+    flex-direction: row;
+}
+
+.mainText{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(6, 53, 116);
+}
+
+.mainImg{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(4, 54, 119, 0.726);
+}
+
+.svgCont{
+    position: fixed;
+    left: -380px;
+    right: 0;
+    top: 50px;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 100%;
+    background-color: rgb(6, 53, 116);
+}
+
+.trig1{
+    position: absolute;
+    right: 0;
+    top: 100vh;
+    z-index: 10;
+    color:wheat;
+}
+
+.trig2{
+    position: absolute;
+    right: 0;
+    top: 200vh;
+    z-index: 10;
+    color:wheat;
+}
+
+.trig3{
+    position: absolute;
+    right: 0;
+    top: 300vh;
+    z-index: 10;
+    color:wheat;
+}
+
+.trig4{
+    position: absolute;
+    right: 0;
+    top: 400vh;
+    z-index: 10;
+    color:wheat;
+}
+
+.trig5{
+    position: absolute;
+    right: 0;
+    top: 500vh;
+    z-index: 10;
+    color:wheat;
+}
+
+.trig6{
+    position: absolute;
+    right: 0;
+    top: 600vh;
+    z-index: 10;
+    color:wheat;
+}
+
+
+@media (min-width: 768px) {
+    .desktopCont{
+        display: flex;
+    }
+}
