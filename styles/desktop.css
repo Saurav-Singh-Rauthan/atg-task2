@@ -1,84 +1,371 @@
-.desktopCont{
-    height: 360vh;
-    width: 100%;
-    display: none;
-    flex-direction: row;
+.desktopCont {
+  height: 710vh;
+  width: 100%;
+  display: none;
+  flex-direction: row;
 }
 
-.mainText{
-    height: 100%;
-    width: 40%;
-    background-color: rgb(6, 53, 116);
+.mainText {
+  height: 100%;
+  width: 40%;
+  background-color: rgb(6, 53, 116);
 }
 
-.mainImg{
-    height: 100%;
-    width: 60%;
-    background-color: rgba(4, 54, 119, 0.726);
+.mainImg {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  background-color: rgba(4, 54, 119, 0.726);
 }
 
-.svgCont{
-    position: fixed;
-    left: -380px;
-    right: 0;
-    top: 50px;
-    margin: 0 auto;
-    width: 400px;
-    border-radius: 100%;
-    background-color: rgb(6, 53, 116);
+.svgCont {
+  position: fixed;
+  left: -380px;
+  right: 0;
+  top: 50px;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 100%;
+  z-index: 10;
+  background-color: rgb(6, 53, 116);
 }
 
-.trig1{
-    position: absolute;
-    right: 0;
-    top: 50vh;
-    z-index: 10;
-    color:wheat;
+.container-fluid{
+  margin: 0;
+  padding: 0;
 }
 
-.trig2{
-    position: absolute;
-    right: 0;
-    top: 100vh;
-    z-index: 10;
-    color:wheat;
+.trig0 {
+  position: absolute;
+  right: 0;
+  top: 100.5vh;
+  z-index: 10;
+  color: wheat;
 }
 
-.trig3{
-    position: absolute;
-    right: 0;
-    top: 150vh;
-    z-index: 10;
-    color:wheat;
+.trig1 {
+  position: absolute;
+  right: 0;
+  top: 101vh;
+  z-index: 10;
+  color: wheat;
 }
 
-.trig4{
-    position: absolute;
-    right: 0;
-    top: 200vh;
-    z-index: 10;
-    color:wheat;
+.trig2 {
+  position: absolute;
+  right: 0;
+  top: 200vh;
+  z-index: 10;
+  color: wheat;
 }
 
-.trig5{
-    position: absolute;
-    right: 0;
-    top: 250vh;
-    z-index: 10;
-    color:wheat;
+.trig3 {
+  position: absolute;
+  right: 0;
+  top: 300vh;
+  z-index: 10;
+  color: wheat;
 }
 
-.trig6{
-    position: absolute;
-    right: 0;
-    top: 300vh;
-    z-index: 10;
-    color:wheat;
+.trig4 {
+  position: absolute;
+  right: 0;
+  top: 400vh;
+  z-index: 10;
+  color: wheat;
 }
 
+.trig5 {
+  position: absolute;
+  right: 0;
+  top: 500vh;
+  z-index: 10;
+  color: wheat;
+}
+
+.trig6 {
+  position: absolute;
+  right: 0;
+  top: 600vh;
+  z-index: 10;
+  color: wheat;
+}
+
+.text {
+  color: white;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h3 {
+  font-size: 2rem;
+}
+
+.h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.h6 {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.heading {
+  position: fixed;
+  right: 0;
+  left: -400px;
+  top: 220px;
+  margin: 0 auto;
+  width: 400px;
+  z-index: 15;
+}
+
+.top {
+  position: fixed;
+  right: 0;
+  left: -450px;
+  top: 180px;
+  margin: 0 auto;
+  width: 400px;
+  z-index: 15;
+}
+
+.bottom {
+  position: fixed;
+  right: 0;
+  left: -150px;
+  top: 290px;
+  margin: 0 auto;
+  width: 400px;
+  z-index: 15;
+}
+
+.title {
+  position: fixed;
+  left: 50px;
+  bottom: 250px;
+  z-index: 15;
+}
+
+.desc {
+  position: fixed;
+  left: 50px;
+  bottom: 130px;
+  width: 270px;
+  text-align: left;
+  z-index: 15;
+}
+
+.caseStudy {
+  position: fixed;
+  left: 50px;
+  bottom: 70px;
+  z-index: 15;
+}
+
+.skip {
+  position: fixed;
+  left: 450px;
+  bottom: 70px;
+  z-index: 15;
+}
+
+.Img1 {
+  top: 0;
+}
+
+.Img2 {
+  top: 52vh;
+}
+
+.img-contDesk {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* images */
+
+.fitnessImg1Desk {
+  width: 350px !important;
+  position: fixed;
+  bottom: -100px;
+  left: 760px;
+}
+
+.fitnessImg2Desk {
+  width: 280px !important;
+  position: fixed;
+  top: -100px;
+  right: 40px;
+}
+
+.pizza1Desk {
+  position: fixed;
+  top: -60px;
+  right: -20px;
+  width: 160px !important;
+}
+
+.pizza2Desk {
+  position: fixed;
+  bottom: -10px;
+  right: -70px;
+  width: 250px !important;
+}
+
+.pizza3Desk {
+  position: fixed;
+  top: 40%;
+  right: -80px;
+  width: 180px !important;
+}
+
+.pizza4Desk {
+  position: fixed;
+  width: 400px !important;
+  top: 0;
+}
+
+.pizza5Desk {
+  position: fixed;
+  width: 300px !important;
+  left: 1050px;
+  top: -25px;
+}
+
+.pizza6Desk {
+  position: fixed;
+  bottom: -40px;
+  left: 1050px;
+  width: 300px !important;
+}
+
+.pizza7Desk {
+  position: fixed;
+  bottom: -20px;
+  left: 750px;
+  width: 300px !important;
+}
+
+.karvan1Desk {
+  position: fixed;
+  left: 780px;
+  bottom: -70px;
+  width: 240px !important;
+}
+
+.karvan2Desk {
+  position: fixed;
+  left: 70%;
+  bottom: -120px;
+  width: 240px !important;
+}
+
+.karvan3Desk {
+  position: fixed;
+  top: -100px;
+  left: 780px;
+  width: 240px !important;
+}
+
+.karvan4Desk {
+  right: -60px;
+  bottom: 100px;
+  position: fixed;
+  width: 240px !important;
+}
+
+.karvan5Desk {
+  position: fixed;
+  right: 200px;
+  top: -40px;
+  width: 240px !important;
+}
+
+.int2Desk {
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  right: -40%;
+  top: 0;
+  margin: 0 auto;
+  width: 940px !important;
+}
+
+.veme1Desk {
+  position: fixed;
+  left: 810px;
+  bottom: -10px;
+  width: 300px !important;
+}
+
+.veme2Desk {
+  position: fixed;
+  right: 40px;
+  top: -10px;
+  width: 300px !important;
+}
+
+.nextgtv1Desk {
+  position: fixed;
+  left: 700px;
+  bottom: 50px;
+  width: 420px !important;
+}
+
+.nextgtv2Desk {
+  position: fixed;
+  right: 60px;
+  bottom: 50px;
+  width: 420px !important;
+}
+
+.nextgtv3Desk {
+  position: fixed;
+  width: 200px !important;
+  top: 46%;
+  left: 10px;
+  opacity: 1;
+  z-index: 10;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 5px solid rgb(238, 139, 185);
+}
+
+.melltoo1Desk {
+  position: fixed;
+  left: 835px;
+  bottom: 70px;
+  z-index: 1;
+  width: 380px !important;
+}
+
+.melltoo2Desk {
+  position: fixed;
+  right: 65px;
+  bottom: 20px;
+  width: 290px !important;
+}
+
+.melltoo3Desk {
+  position: fixed;
+  top: 46%;
+  left: 10px;
+  z-index: 10;
+  width: 190px !important;
+  border-radius: 0.5rem;
+  border: 4px solid green;
+}
 
 @media (min-width: 768px) {
-    .desktopCont{
-        display: flex;
-    }
+  .desktopCont {
+    display: flex;
+  }
 }

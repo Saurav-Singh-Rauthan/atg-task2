@@ -1,10 +1,9 @@
 let controller = new ScrollMagic.Controller();
 
-var bar = new ProgressBar.Path('#Opaque_Ring', {
-    easing: 'easeInOut',
-    duration: 800
+var bar = new ProgressBar.Path("#Opaque_Ring", {
+  easing: "easeInOut",
+  duration: 800,
 });
-  
 
 // page2
 new ScrollMagic.Scene({
@@ -14,7 +13,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("enter", () => {
     bar.set(0);
-    bar.animate(.16);
+    bar.animate(0.16);
   });
 
 new ScrollMagic.Scene({
@@ -22,9 +21,9 @@ new ScrollMagic.Scene({
 })
   .setTween(".svgCont", 1, { backgroundColor: "#213046" })
   .addTo(controller)
-  .on('leave',() => {
-      bar.set(0.16);
-      bar.animate(0.0);
+  .on("leave", () => {
+    bar.set(0.16);
+    bar.animate(0.0);
   });
 
 new ScrollMagic.Scene({
@@ -41,7 +40,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("enter", () => {
     bar.set(0.16);
-    bar.animate(.35);
+    bar.animate(0.35);
   });
 
 new ScrollMagic.Scene({
@@ -49,10 +48,10 @@ new ScrollMagic.Scene({
 })
   .setTween(".svgCont", 1, { backgroundColor: "rgb(61, 6, 68)" })
   .addTo(controller)
-  .on('leave',() => {
+  .on("leave", () => {
     bar.set(0.35);
     bar.animate(0.16);
-});
+  });
 
 new ScrollMagic.Scene({
   triggerElement: ".trig2",
@@ -68,7 +67,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("enter", () => {
     bar.set(0.35);
-    bar.animate(.5);
+    bar.animate(0.5);
   });
 
 new ScrollMagic.Scene({
@@ -78,7 +77,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("leave", () => {
     bar.set(0.5);
-    bar.animate(.35);
+    bar.animate(0.35);
   });
 
 new ScrollMagic.Scene({
@@ -95,7 +94,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("enter", () => {
     bar.set(0.5);
-    bar.animate(.65);
+    bar.animate(0.65);
   });
 
 new ScrollMagic.Scene({
@@ -105,7 +104,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("leave", () => {
     bar.set(0.65);
-    bar.animate(.5);
+    bar.animate(0.5);
   });
 
 new ScrollMagic.Scene({
@@ -122,7 +121,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("enter", () => {
     bar.set(0.65);
-    bar.animate(.83);
+    bar.animate(0.83);
   });
 
 new ScrollMagic.Scene({
@@ -132,7 +131,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("leave", () => {
     bar.set(0.83);
-    bar.animate(.65);
+    bar.animate(0.65);
   });
 
 new ScrollMagic.Scene({
@@ -159,7 +158,7 @@ new ScrollMagic.Scene({
   .addTo(controller)
   .on("leave", () => {
     bar.set(1);
-    bar.animate(.83);
+    bar.animate(0.83);
   });
 
 new ScrollMagic.Scene({
