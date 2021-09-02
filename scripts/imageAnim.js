@@ -381,7 +381,7 @@ new ScrollMagic.Scene({
       duration: 0,
       opacity: 0,
     });
-    
+
     gsap.to(".nextgtv1Desk, .nextgtv2Desk", {
       duration: 0,
       opacity: 1,

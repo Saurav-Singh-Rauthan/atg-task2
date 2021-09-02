@@ -1,5 +1,5 @@
 .desktopCont {
-  height: 710vh;
+  height: 370vh;
   width: 100%;
   display: none;
   flex-direction: row;
@@ -38,7 +38,7 @@
 .trig0 {
   position: absolute;
   right: 0;
-  top: 100.5vh;
+  top: 50.5vh;
   z-index: 10;
   color: wheat;
 }
@@ -46,7 +46,7 @@
 .trig1 {
   position: absolute;
   right: 0;
-  top: 101vh;
+  top: 51vh;
   z-index: 10;
   color: wheat;
 }
@@ -54,7 +54,7 @@
 .trig2 {
   position: absolute;
   right: 0;
-  top: 200vh;
+  top: 100vh;
   z-index: 10;
   color: wheat;
 }
@@ -62,7 +62,7 @@
 .trig3 {
   position: absolute;
   right: 0;
-  top: 300vh;
+  top: 150vh;
   z-index: 10;
   color: wheat;
 }
@@ -70,7 +70,7 @@
 .trig4 {
   position: absolute;
   right: 0;
-  top: 400vh;
+  top: 200vh;
   z-index: 10;
   color: wheat;
 }
@@ -78,7 +78,7 @@
 .trig5 {
   position: absolute;
   right: 0;
-  top: 500vh;
+  top: 250vh;
   z-index: 10;
   color: wheat;
 }
@@ -86,7 +86,7 @@
 .trig6 {
   position: absolute;
   right: 0;
-  top: 600vh;
+  top: 300vh;
   z-index: 10;
   color: wheat;
 }
